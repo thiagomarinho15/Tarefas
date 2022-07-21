@@ -1,0 +1,26 @@
+Sensor Etanol Código e URL
+
+Código C:
+
+// C++ code
+//
+void setup()
+{
+  pinMode(A4, INPUT);
+  pinMode(7, OUTPUT);
+}
+
+void loop()
+{
+  if (analogRead(A4) > 600) {
+    digitalWrite(7, HIGH);
+  } else {
+    digitalWrite(7, LOW);
+  }
+  delay(10); // Delay a little bit to improve simulation performance
+}
+
+
+URL:
+
+https://www.tinkercad.com/things/5yPTWRFARSd-sensor-etanol/editel
