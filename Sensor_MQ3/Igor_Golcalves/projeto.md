@@ -1,6 +1,6 @@
 ## Tarefa: prototipar a detecção de etanol
 ### Esquema montado no Tinkercad
-![image](https://github.com/luizkeng/IC-Igor_Goncalves/blob/main/Arduino%20da%20aula%20de%20ic.png)
+![image](https://github.com/laciq/Tarefas/blob/main/Sensor_MQ3/Igor_Golcalves/Arduino%20da%20aula%20de%20ic.png)
 ---
 ### Código C
 ```int LED = A1;
